@@ -47,15 +47,3 @@ def test_magazine_article_titles():
     article = Article(author, magazine, 'Top 10 Horror Movies')
     magazine.articles = [article]
     assert magazine.article_titles() == ['Top 10 Horror Movies']
-
-def test_magazine_contributing_authors():
-    """
-    contributing_authors() should return a list
-    of authors who have contributed articles to
-    the magazine
-    """
-    author = Author('Stephen King')
-    magazine = Magazine('Spooky Zine', 'horror')
-    article = Article(author, magazine, 'Top 10 Horror Movies')
-    magazine.articles = [article]
-    assert magazine.contributing_authors() == [author]

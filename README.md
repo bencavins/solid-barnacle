@@ -75,10 +75,6 @@ Write the following methods in the classes in the files provided. Feel free to b
 - `Author get_magazines()`
   - Returns a list of `Magazine` instances for which the author has contributed to
 
-#### Magazine
-
-- `Magazine get_contributors()`
-  - Returns an list of `Author` instances who have written for this magazine
 
 ### Associations and Aggregate Methods
 
@@ -93,5 +89,5 @@ Write the following methods in the classes in the files provided. Feel free to b
 
 - `Magazine article_titles()`
   - Returns an list strings of the titles of all articles written for that magazine
-- `Magazine contributing_authors()`
-  - Returns an list of authors who have written for the magazine
+- `Magazine get_contributors()`
+  - Returns an list of `Author` instances who have written for this magazine
