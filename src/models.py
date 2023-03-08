@@ -34,9 +34,6 @@ class Magazine:
     def article_titles(self):
         pass
 
-    def contributing_authors(self):
-        pass
-
 
 class Article:
     def __init__(self, author, magazine, title):
